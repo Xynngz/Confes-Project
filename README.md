@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Ruang Kenangan Cinta - Valentine Edition
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1b1_60eQqCp3SxZsVVA8s2j4UANYInlVw
+A deeply personal, interactive digital memory room designed as a special Valentine's gift.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+### Prerequisites
+- Node.js (v18 or higher recommended)
 
+### Setup Instructions
+1. **Clone or download** the project files to your local machine.
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Set the API Key**:
+   Create a `.env.local` file in the root directory and add your Gemini API key:
+   ```env
+   API_KEY=your_actual_gemini_api_key_here
+   ```
+4. **Run the app**:
+   ```bash
+   npm run dev
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The application will be available at `http://localhost:3000` (or the port specified in your terminal).
