@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Welcome from './components/Welcome';
 import StorySection from './components/StorySection';
@@ -40,7 +40,7 @@ const App: React.FC = () => {
               
               <div className="flex flex-col items-center justify-center py-20">
                 <p className="text-maroon-800 italic mb-8 text-center max-w-md">
-                  "Terakhir...I want to say something for you"
+                  "Terakhir... I want to say something for you"
                 </p>
                 <motion.button
                   whileHover={{ scale: 1.05 }}
