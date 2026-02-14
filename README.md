@@ -20,7 +20,7 @@ A deeply personal, interactive digital memory room designed as a special Valenti
    ```
 4. **Run the app**:
    ```bash
-   npm run dev
+   npm run build
    ```
 
 The application will be available at `http://localhost:3000` (or the port specified in your terminal).
